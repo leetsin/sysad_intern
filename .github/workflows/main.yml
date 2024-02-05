@@ -1,37 +1,42 @@
-name: Deploy to DigitalOcean
+name: Django CI
 
 on:
   push:
-    branches:
-      - main  # Adjust this branch name if needed
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
-  deploy:
+  build:
+
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Python
+    - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
-        python-version: 3.12
+        python-version: ${{ matrix.python-version }}
 
-    - name: Install dependencies
+    - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt  # Adjust the path if needed
+        pip install -r /home/sysad_intern/sysad_intern/requirements.txt
 
-    - name: Collect static files
+    - name: Run Tests
+      env:
+        DJANGO_SETTINGS_MODULE: "sysad_intern.settings"
       run: |
-        python manage.py collectstatic --noinput
+        python /home/sysad_intern/manage.py test
 
-    - name: Apply database migrations
+    - name: Collect Static Files
+      env:
+        DJANGO_SETTINGS_MODULE: "sysad_intern.settings"
       run: |
-        python manage.py migrate
-
-    - name: Restart Gunicorn (assuming you're using Gunicorn as the server)
-      run: |
-        sudo systemctl restart gunicorn  # Adjust the command based on your server setup
+        python /home/sysad_intern/manage.py collectstatic --noinput
 
