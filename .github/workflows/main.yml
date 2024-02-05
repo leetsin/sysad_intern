@@ -26,7 +26,7 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install --upgrade pip
-        pip install -r /home/sysad_intern/sysad_intern/requirements.txt
+        pip install -r /home/sysad_intern/requirements.txt
 
     - name: Run Tests
       env:
