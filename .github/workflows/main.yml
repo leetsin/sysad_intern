@@ -25,7 +25,6 @@ jobs:
 
     - name: Collect static files
       run: |
-	mkdir -p /home/sysad_intern/static_root
         python manage.py collectstatic --noinput
 
     - name: Apply database migrations
