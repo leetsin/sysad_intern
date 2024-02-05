@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.12]
+        python-version: [3.11]
 
     steps:
     - name: Checkout code
@@ -32,11 +32,11 @@ jobs:
       env:
         DJANGO_SETTINGS_MODULE: "sysad_intern.settings"
       run: |
-        python /home/sysad_intern/manage.py test
+        python manage.py test
 
     - name: Collect Static Files
       env:
         DJANGO_SETTINGS_MODULE: "sysad_intern.settings"
       run: |
-        python /home/sysad_intern/manage.py collectstatic --noinput
+        python manage.py collectstatic --noinput
 
