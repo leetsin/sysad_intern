@@ -1,647 +1,1000 @@
-exit
 clear
-~/.ssh
+ls
+sudo nano /etc/nginx/sites-available/my_django_project.conf
+ls
+mkdir my_django_project.conf
+rm -rf my_django_project.conf/
+ls
+touch my_django_project.conf
+nano my_django_project.conf
+nano my_django_project.conf 
+clear
 pwd
-cd .ssh
-ls
-clear
-ls
-cd ..sh
-cd .ssh
-ls
-nano authorized_keys 
-sudo yum install -y nano
-clear
-nano authorized_keys 
-eval $(ssh-agent)
-sudo yum install git
-clear
-ssh-keygen -t rsa -b 4096 -C shiv07221202021@msijanakpuri.com
-ls
-cat id_rsa.pub
-cat authorized_keys 
-nano authorized_keys 
-ls
-clear
-ls
-rm-rf id_rsa
-rm -rf id_rsa
-rm -rf id_rsa.pub 
-ls
-clear
-ssh-keygen -t ed25519 -C shiv07221202021@msijanakpuri.com
-eval "$(ssh-agent -s)"
-~/.ssh/config
-touch ~/.ssh/onfig
-ls
-rm onfig 
-touch ~/.ssh/config
-vim ~/.ssh/config 
-sudo yum install vim-enhanced -y  
-vim ~/.ssh/config 
-ssh-add ~/.ssh/id_ed25519
-clear
-cat ~/.ssh/id_ed25519.pub
-ssh -T git@github.com
-git clone git@github.com:helloshiv01/sysad_intern.git
-clear
-sudo yum install nginx
-clear
-sudo yum install epel-release
-sudo yum install nginx
-clear
-sudo systemctl start nginx
 sudo systemctl status nginx
-cd /etc/nginx/sites-available/
-/etc/nginx/conf.d/
-cd /etc/nginx/conf.d/
-cd ~/.ssh
+cd /etc/nginx/sites-enabled/
 ls
-# Assuming you are in the home directory
-mv .ssh/sys-intern ~/sys-intern
-# Assuming you are in the home directory
-mv .ssh/sys-intern ~/sys-intern
-xd home
-cd home
-cd Home
+cd my_django_project.conf 
 clear
-cd ~
-ls
-pwd
-mv ~/.ssh/sysad_intern/ ~
-ls
-clear
-ls
-cd /etc/nginx/sites-available/
-cd /etc/nginx/conf.d/
-sudo nano sysad_intern
-whoami
-curl -s http://checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
-sudo nano sysad_intern
-sudo nano /etc/nginx/conf.d/sysad_intern.conf
-ls
-rm sysad_intern
-clear
-ls
+nano my_django_project.conf 
 sudo nginx -t
-sudo cat /var/log/nginx/error.log
-sudo nano /etc/nginx/proxy_params
-sudo nano /etc/nginx/conf.d/sysad_intern.conf
-sudo nginx -t
-sudo systemctl restart nginx
+sudo systemctl reload nginx
+systemctl status nginx
+nginx -t
+nginx -t -c /etc/nginx/sites-enabled/my_django_project.conf
+nano my_django_project.conf 
 clear
-ls
-cd sysad_intern/
-ls
-mkdir -p .github/workflows
-cd .github/workflows
-nano main.yml
-git add .github/workflows/main.yml
-git commit -m "Add GitHub Actions workflow for deployment"
-git push origin main  # or the branch you are using
+sudo systemctl reload nginx
+nginx -t -c /etc/nginx/sites-enabled/my_django_project.conf
+cd /home/sysad_intern/
+python3 -m venv myprojectenv
+source myprojectenv/bin/activate
+pip install django gunicorn psycopg2-binary
 clear
-cd .
-ls
-cd ..
-ls
-cd ..
-ls
-git init
-git add .github/workflows/main.yml
-git commit -m "Add GitHub Actions workflow for deployment"
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git config --global user.email shiv07221202021@msijanakpuri.com
-git config --global user.name shiv cahudhary
-git config --global user.name shiv chaudhary
+manage.py collectstatic
 clear
-git add .github/workflows/main.yml
-git commit -m "Add GitHub Actions workflow for deployment"
-git push origin main  # or the branch you are using
-git branch
-git push origin main
-git remote -v
-git remote add origin git@github.com:helloshiv01/sysad_intern.git
-git remote -v
-git push origin main
-git branch
-git add .
-git commit -m "Your commit message here"
-git push origin main
-git init
-clear
-ls
-cd sysad_intern/
-ls
-cd ..
-ls
-cd .github/workflows/main.yml 
-cd .github/workflows
-ls
-cd .
-cd ..
-ls
-cd ..
-ls
-cd sysad_intern/
-ls
-cd .github/workflows
-cd ..
-cd root
-ls
-cd .github/workflows
-pwd
-rm .github/workflows
-rm -rf .github
-ls
-clear
-rm main.yml 
-cd ~
-ls
-rm -rf .github
-ls
-cd .githu
-cd .github
-cd .github/workflows
-ls -a
-cd sysad_intern/
-mkdir -p .github/workflows
-cd .github/workflows
-nano main.yml
-git add .github/workflows/main.yml
-git commit -m "Add GitHub Actions workflow for deployment"
-git push origin main  # or the branch you are using
-ls
-git add main.yml
-git commit -m "Add GitHub Actions workflow for deployment"
-git push origin main
-nano /path/to/sysad_intern/sysad_intern/settings.py
-cd sysad_intern/
-ls
-cd sysad_intern/
-ls
-cd ..
-ls
-cd web/
-ls
-cd ..
-ls
-clear
-cd sysad_intern/
-ls
-nano settings.py 
-vim settings.py 
-nano settings.py 
-pwd
-nano settings.py 
-python manage.py collectstatic --noinput
-cd ..
-ls
-python manage.py collectstatic --noinput
-nano manage.py 
-python --version
-CLEAR
-clear
-ls
-cd sysad_intern/
-ls
-ls
-cd sysad_intern/
-ls
-nano requirements.txt 
-ls
-cd .github/workflows
-ls
-nano main.yml 
-python manage.py collectstatic --noinput
-cd ..
-ls
-cd ..
-ls
-clear
-ls
- python manage.py collectstatic --noinput
-nano manage.py
-nano manage.py 
-git status
-git add .
-git commit
-git commit -m "updates"
-git push origin master
-git push origin main
-clear
-ls
-cd sysad_intern/
-ls
-
-ls
-cd .github/workflows
-cd ..
-cd .github/workflows
-ls
-nano main.yml 
-cd .github
-vlear
-clear
-cd sysad_intern/
-cd .github/workflow
-clear
-cd sysad_intern/
-ls
-cd ..
-clear
-cd .github
-ls
-cd workflows/
-nano main.yml 
 python manage.py collectstatic
-cd ..
-ls
-cd ..
-ls
-python manage.py collectstatic
-python manage.py test
-nano manage.py 
-python manage.py test
-clear
-nano manage.py 
-python manage.py test
-ls
-cd ..
-ls
-cd sysad_intern/
-.github/workflows/
-cd .github/workflows/
-nano main.yml 
-ls
-cd sysad_intern/
-ls
-nano manage.py 
-cd sysad_intern/
-ls
-nano settings.py 
-/.ssh
-~/.ssh
-clear
-~/.ssh/
-ls
-ipconfig
-clear
-cd ~/.ssh/
-ls
-cd authorized_keys 
-nano authorized_keys 
-eval $(ssh-agent -s)
-ssh-add-l
-clear
-ls
-cd sysad_intern/
-ls
-cd .github/
-ls
-cd workflows/
-cd main.yml
-clear
-ls
-cd sysad_intern/sysad_intern/
-nano settings.py
-ls
-pwd
-cd ..
-ls
-mkdir static_root
-ls
-pwd
-cd scd sysad_intern/
-clear
-ls
-cd sysad_intern/
-ls
-nano settings.py
-cd ..
-ls
-cd .github/
-cd workflows/
-nano main.yml
-git status
-git pull
-git add .
-git add settings.py
-cd ..
-ls
-clear
-cd sysad_intern/
-git add settings.py
-git commit -m "settings updated"
-git push origin main
-ls
-cd sysad_intern/
-ls
- python manage.py collectstatic --noinput
-clear
- python3 manage.py collectstatic --noinput
-clear
-python3 manage.py collectstatic --noinput
-clear
-python manage.py collectstatic --noinput
-nano manage.py 
-python manage.py collectstatic --noinput
-clear
-python manage.py collectstatic --noinput
-ls
-cd sysad_intern/
-clear
-ls
-chmod -R 755 /path/to/project_root/static_root
-pwd
-chmod -R 755 /root/sysad_intern/static_root/
-cd sysad_intern/
-nano settings.py
-git status
-git add
-git add .
-git commit -m "permissions"
-git push origin main
-clear
-ls -lR /path/to/your/folder
-ls -lR /root/sysad_intern/
-chmod -R 755 /root/sysad_intern/
-ls -lR /root/sysad_intern/
-ls
-pwd
-cd ..
-clear
-ls
-cd home
-ls
-pwd
-cd /
-ls
-pwd
-cd root
-ls
-mv sysad_intern/ /home
-clear
-ks
-ls
-clear
-cd /home
-ls
-cd sysad_intern/
-ls
-nano manage.py
-cd sysad_intern/
-cd ..
-ls
-rm-rf static_root/
-rm -rf static_root/
-clear
-ls
-cd sysad_intern/
-ls
-nano settings.py
-cd ..
-cd .github/workflows/
-ls
-nano main.yml.save 
-rm-rf main.yml.save 
-rm -rf main.yml.save 
-clear
-nano main.yml 
-git status
-git add .
-git add -all
-git add --all
- git add --all :/
-clear
-git push
-git commit -m 
-git commit -m "settings updated"
-git push origin main
-clear
-ls
-cd .
-cd ..
-ls
-cd ..
-clear
-ls
-cd sysad_intern/
-ls
-cd sysad_intern/
-ls
-cd settings.py
-clear
-nano settings.py
-ls
-cd ,,
-cd ..
-clear
-ls
-mkdir static_root
-clear
-ls
-cd .github/workflows/
-nano main.yml 
-git status
-git add .
-git commit-m 
-clear
-git commit -m "yml updated"
-git push origin main
-ls
-cd ..
-ls
-nano manage.py 
-git status
-git add .
-git commit -m "manage.py updated"
-git push origin main
-clear
-ls
-cd ..
-ls
-chmod -R 755 /home/sysad_intern/manage.py 
-git status
-cd sysad_intern/
-git status
-clear
-git push origin main
-ls
-cd /home/
-clear
-ls
-cd sysad_intern/
-cd .github/workflows/
-nano main.yml 
-cd ..
-cd ,.
-clear
-ls
-pwd
-cd sysad_intern/
-ls
-pwd
-cd .github
-cleat
-clear
-ls
-cd ..
-cd .github/workflows/
-nano main.yml 
-git status
-git add .
-git commit -m "yml updated"
-git push origin main
-nano main.yml 
-git status
-git add .
-git commit -m "yml updated"
-git push origin main
-nano main.yml 
-cd ..
-ls
-git add .
-git commit -m "yml updated"
-git push origin main
-ls
-pwd
-clear
-cd .github/workflows/
-nano main.yml 
-git add .
-git commit -m "yml updated"
-git push origin main
-cd home
-clear
-cd /home
-ls
-cd sysad_intern/
-ls
-cd /home
-ls
-cd sysad_intern/
-cd .github/
-cd workflows/
-nano main.yml 
-git add .
-git commit -m "yml"
-git push origin main
-nano main.yml 
-cd /home
-ls 
-cd sysad_intern/
-ls
-cd .github/workflows/
-ls
-nano main.yml 
-cd ..
-ls
-nano manage.py 
-cd sysad_intern/
-nano settings.py
-clear
-ls
-cd ..
-clear
-ls
-cd ..
-sudo chmod -R 755 /home/sysad_intern/
-ls
-cd /home
-clear
-ls
-cd /home
-cd sysad_intern/
-ls
-python manage.py runserver
-python3 manage.py runserver
-clear
-python3 manage.py runserver
-cleae
-clear
-python3 manage.py runserver
-python manage.py runserver
-cd /home
-ls
-cd sysad_intern/
-ls
 pip install django
-sudo yum install python-django
 clear
-django-admin --version
-ls
-python manage.py runserver
+python manage.py collectstatic
 clear
-python manage.py startapp sysad_intern
+cd /var/www/
 clear
-djangoadmin --version
-django-admin --version
-python --version
-
-python manage.py runserver
-python3 manage.py startapp sysad_intern
-source env/bin/activate
-yum update -y
-clear
-python3 -m venv python3-virtualenv
-python -m venv python3-virtualenv
-yum install python36-devel
-clear
-python3 -m virtualenv venv-dev
-python -m virtualenv venv-dev
-clear
-pip install virtualenv
-pip3 install virtualenv.
-
-pip3 home install virtualenv.
-clear
-cd .git
-ls
-cd .github/
-clear
-ls
-cd ..
-clear
-cd .github/workflows/
-nano main.yml 
 cd ..
 ls
 cd ..
 ls
-python manage.py collectstatic --noinput
-cd /home
-cd sysad_intern/
-ls
-cd sysad_intern/
-nano settings.py
-cd /home
-cd sysad_intern/
-ls
-nano settings.py
-cd ..
-ls
-python manage.py collectstatic --noinput
-python manage.py runserver
-python manage.py
-yum install epel-release
-yum install python34 python-pip
-pip install -U pip
-pip install -U virtualenv
+cd /home/sysad_intern/
+sudo yum install epel-release
+sudo yum install python-pip python-devel postgresql-server postgresql-devel postgresql-contrib gcc nginx 
 clear
-virtualenv -p python3 shiv
-pip install virtualenv
+sudo postgresql-setup initdb
+sudo systemctl start postgresql
+sudo nano /var/lib/pgsql/data/pg_hba.conf
+sudo systemctl restart postgresql
+sudo systemctl enable postgresql
+sudo su - postgres
+clear
+pip install django gunicorn psycopg2
 pip install --upgrade pip
 clear
-sudo systemctl status nginx
+nano sysad_intern/settings.py
+nano snano sysad_intern/settings.py
+ls
+./manage.py makemigrations
+nano snano sysad_intern/settings.py
+cd /home/sysad_intern/
+ls
+./manage.py makemigrations
+source myprojectenv/bin/activate
+./manage.py makemigrations
+pip install django
+pip install python
+clear
+./manage.py makemigrations
+nano sysad_intern/settings.py
+./manage.py makemigrations
+clear
+./manage.py makemigrations
+clear
+./manage.py collectstatic
+./manage.py runserver 0.0.0.0:8000
+clear
+./manage.py makemigrations
+clear
+nano sysad_intern/settings.py
+ls
+cd sysad_intern/
+./manage.py makemigrations
+cd ..
+./manage.py makemigrations
+clear
+./manage.py migrate
+clear
+./manage.py makemigrations
+nano sysad_intern/settings.py
+sudo nano /var/lib/pgsql/data/pg_hba.conf
+sudo systemctl restart postgresql
+sudo systemctl enable postgresql
+sudo su - postgres'
+clear
+sudo su - postgres
+clear
+./manage.py makemigrations
+./manage.py migrate
+./manage.py createsuperuser
+./manage.py collectstatic
+./manage.py runserver 0.0.0.0:8000
+clear
+ls
+cd /etc/
+ls
+rm -rf nginx/
+clear
+ls
+cd usr/
+clear
+cd nginx
+clear
+sudo systemctl stop nginx
+sudo yum remove nginx
+clear
+sudo rm -rf /etc/nginx
+sudo rm -rf /var/log/nginx
+sudo rm -rf /var/lib/nginx
+sudo userdel nginx
+sudo groupdel nginx
+clear
+cd /usr/share/nginx/
+ls
+cd ..
+ls
+rm -rf nginx/
+cd /usr/share/nginx/
+clear
+cd /home/sysad_intern/
+ls
+./manage.py runserver 0.0.0.0:8000
+nano sysad_intern/settings.py
+./manage.py runserver 0.0.0.0:8000
+clear
+ls
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi:application
+clear
+deactivate
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo yum install nginx
+clear
+sudo nano /etc/nginx/nginx.conf
+sudo usermod -a -G shiv nginx
+sudo usermod -a -G user nginx
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+whoami
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl start gunicorn
+sudo nano /etc/nginx/nginx.conf
+clear
+sudo usermod -a -G root nginx
+sudo usermod -a -G user nginx
+clear
 sudo nginx -t
+cd /etc/nginx/
+nano nginx.conf
+sudo useradd nginx
+sudo nginx -t
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo usermod -a -G root nginx
+cd /home
+whoami
+chmod 710 /home/root
+chmod 710 /home/sysad_intern/
+sudo systemctl start nginx
+sudo systemctl enable nginx
 cd /home
 ls
- cd sysad_intern/
-cd /home
+cd sysad_intern/
+clear
+./manage.py runserver 0.0.0.0:8000
+source myprojectenv/bin/activate
+./manage.py runserver 0.0.0.0:8000
+clear
+deactivate
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+whoami
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo nano /etc/nginx/nginx.conf
+sudo usermod -a -G root nginx
+chmod 710 /home/
+sudo nginx -t
+sudo systemctl start nginx
+sudo systemctl enable nginx
+chmod 755 /home/sysad_intern
+clear
+sudo usermod -a -G root nginx
+ls
+systemctl status nginx
+tail -f /var/log/nginx/error.log
+clear
+ps auxf | grep nginx
+tail -f /var/log/nginx/error.log
+clear
+ls -l /home/sysad_intern/sysad_intern.sock
+ls -ld /home/sysad_intern
+clear
+ls
+ls -l /home/sysad_intern/sysad_intern.sock
+ls -ld /home/sysad_intern
+clear
+ls
 cd sysad_intern/
 ls
 cd ..
-python manage.py collectstatic --noinput
+clear
+ls -l sysad_intern.sock
+sudo nano /etc/systemd/system/gunicorn.service
+cd /home
+ls
+mkdir shiv
+ls
+ufw allow OpenSSH
+gunicorn --bind 0.0.0.0:8000 textutils.wsgi
+clear
+cd sysad_intern/
+gunicorn --bind 0.0.0.0:8000 textutils.wsgi
+clear
+source myprojectenv/bin/activate
+gunicorn --bind 0.0.0.0:8000 textutils.wsgi
+clear
+ls
+cd ..
+ls
+mv sysad_intern/ shiv
+ls
+cd shiv/
+ls
+cd sysad_intern/
+ls
+nano manage.py 
+cd sysad_intern/
+ls
+nano settings.py
+cd ..
+ls
+cleat
+clear
+./manage.py runserver 0.0.0.0:8000
+clear
+./manage.py runserver 0.0.0.0:8000
+clear
+cd /home
+ls
+cd shiv/
+mv sysad_intern/ home
+clear
+ls
+cd home
+ld
+clear
+ls
+mkdir sysad_intern/
+clear
+ls
+pwd
+mv home sysad_intern/
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+pwd
+cd ..
+ls
+clear
+ls
+cd home/
+ls
+cd shiv
+ls
+mv /home/shiv/home/ shiv
+ls
+cd shiv
+ls
+pwd
+cd home/shiv
+clear
+cd /home/shiv
+mv shiv/* .
+ls
+pwd
+rmdir shiv
+clear
+ls
+cd ..
+ls
+cd shiv
+
+pwd
+./manage.py runserver 0.0.0.0:8000
+pip install django
+pip install --upgrade pip
+clear
+./manage.py runserver 0.0.0.0:8000
+clear
+pwd
+ls
+cd /home/shiv
+mv * /home/sysad_intern/
+ls
+cd ..
+mkdir sysad_intern
+ls
+cd shiv
+mv * /home/sysad_intern/
+clear
+ls
+cd ..
+ls
+cd sysad_intern/
+ls
+rm -r /home/shiv/shiv
+rm -r /home/shiv/
+clear
+ls
+cd ..
+ls
+cd sysad_intern/
+exit
+cd home
+cd /home
+clear
+cd sysad_intern/
+source myprojectenv/bin/activate
+clear
+./manage.py collectstatic
+clear
+./manage.py runserver 0.0.0.0:8000
+clear
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi:application
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo nano /etc/nginx/nginx.conf
+sudo usermod -a -G root nginx
+ls
+cd shiv
+ls
+cd ..
+rm -rf shiv
+clear
+ls
+cd ..
+ls
+cd nginx/
+ls
+cd ..
+rm -rf nginx/
+clear
+ls
+sudo usermod -a -G root nginx
+ls
+sudo nginx -t
+sudo systemctl start nginx
+sudo systemctl enable nginx
+tail -f /var/log/nginx/error.log
+clear
+setsebool -P httpd_can_network_relay 1
+setsebool httpd_can_network_connect on
+setsebool httpd_can_network_connect on -P
+getsebool -a | grep httpd
+ufw status
+clear
+systemctl restart nginx
+setsebool -P httpd_can_network_connect 1
+sudo cat /var/log/audit/audit.log | grep nginx | grep denied
+sudo cat /var/log/audit/audit.log | grep nginx | grep denied | audit2allow -M mynginx
+sudo semodule -i mynginx.pp
+clear
+ls
+cd sysad_intern/
+./manage.py runserver 0.0.0.0:8000
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi:application
+clear
+tail -f /var/log/nginx/error.log
+clear
+setsebool -P httpd_can_network_connect 1
+deactivate
+clear
+sudo cat /var/log/audit/audit.log | grep nginx | grep denied
+sudo cat /var/log/audit/audit.log | grep nginx | grep denied | audit2allow -M mynginx
+sudo semodule -i mynginx.pp
+clear
+ps auxf | grep nginx
+sudo journalctl -u myproject.service
+sudo journalctl -u sysad_intern.service
+clear
+source myprojectenv/bin/activate
+sudo journalctl -u sysad_intern.service
+clear
+ls
+cd ..
+ls
+mkdir shiv
+ls
+sudo mv /home/sysad_intern /home/shiv/
+ls
+cd shiv
+clear
+ls
+cd sysad_intern/
+ls
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+clear
+sudo nano /etc/nginx/nginx.conf
+ls
+source myprojectenv/bin/activate
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi:application
+pip install gunicorn
+clear
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi:application
+ls
+rm -rf myprojectenv/
+pwd
+python3 -m venv djangoenv
+deactivate
+source myprojectenv/bin/activate
+clear
+source djangoenv/bin/activate
+pip install django gunicorn psycopg2
+pip install --upgrade pip
+clear
+pip install --upgrade pip
+clear
+pip install django
+clear
+./manage.py runserver 0.0.0.0:8000
+clear
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi:application
+deactivate
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+clear
+sudo nano /etc/nginx/nginx.conf
+whoami
+adduser shiv
+clear
+cd ..
+ls
+cd ..
+ls
+sudo usermod -a -G shiv nginx
+ls
+cd shiv
+ls
+cd sysad_intern/
+ls
+chmod 710 /home/shiv
+sudo nginx -t
+sudo systemctl start nginx
+sudo systemctl enable nginx
+clear
+tail -f /var/log/nginx/error.log
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+cd  /etc/systemd/system/gunicorn.service
+cd /etc
+cd  systemd/system/
+ls
+nano gunicorn.service 
+ls
+pwd
+rm -rf gunicorn.service 
+clear
+sudo nano gunicorn.socket
+nano gunicorn.service
+sudo systemctl start gunicorn.socket
+sudo systemctl enable gunicorn.socket
+sudo systemctl start gunicorn.socket
+clear
+sudo systemctl enable gunicorn.socket
+sudo systemctl start gunicorn.socket
+systemctl status gunicorn.socket
+sudo nano gunicorn.socket
+tail -f /var/log/nginx/error.log
+clear
+nano gunicorn.service
+sudo groupadd www-data
+sudo usermod -a -G www-data centos
+nano gunicorn.service
+sudo nano gunicorn.socket
+nano gunicorn.service
+sudo systemctl start gunicorn.socket
+sudo systemctl enable gunicorn.socket
+clear
+sudo systemctl start gunicorn.socket
+sudo nano /etc/nginx/sites-available/sysad_intern
+mkdir sudo systemctl start gunicorn.socket
+clear
+sudo vim /etc/nginx/sites-available/sysad_intern
+vim /etc/nginx/sites-available/sysad_intern
+mkdir location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/harry/projectdir;
+    }
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/run/gunicorn.sock;
+    }
+clear
+mkdir /etc/nginx/sites-available/sysad_intern
+cleat
+clear
+sudo vim /etc/nginx/sites-available/sysad_intern.conf
+clear
+cd /etc
+clear
+ls
+sudo vim /etc/nginx/sites-available/syasad_intern
+cd nginx/
+clear
+ls
+sudo mkdir /etc/nginx/sites-available
+ls
+cd /etc/nginx/sites-available
+sudo nano syad_intern
+sudo ln -s /etc/nginx/sites-available/sysad_intern /etc/nginx/sites-enabled/
+clear
+cd ..
+sudo mkdir /etc/nginx/sites-enabled
+sudo ln -s /etc/nginx/sites-available/sysad_intern /etc/nginx/sites-enabled/
+sudo systemctl reload nginx
+sudo systemctl start gunicorn.socket
+sudo systemctl enable gunicorn.socket
+clear
+nano gunicorn.service
+sudo vim /etc/systemd/system/gunicorn.service
+sudo vim /etc/systemd/system/gunicorn.socket
+cd /etc/systemd/system
+sudo systemctl start gunicorn.socket
+sudo systemctl enable gunicorn.socket
+sudo systemctl restart nginx
+tail -f /var/log/nginx/error.log
+clear
+sudo nano /etc/nginx/nginx.conf
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+clear
+ls
+rm -rf gunicorn.socket 
+clear
+sudo nano /etc/nginx/nginx.conf
+cd /etc/nginx/
+ls
+rm -rf sites-enabled/
+rm -rf sites-available/
+clear
+sudo usermod -a -G shiv nginx
+chmod 710 /home/shiv
+sudo nginx -t
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status gunicorn
+pip install gunicorn==20.0.2
+pip install --upgrade pip
+clear
+sestatus
+sudo nano /etc/selinux/config
+sudo shutdown now -r
+sestatus
+sudo systemctl start gunicorn
+sudo systemctl status gunicorn
+clear
+sestatus
+sudo systemctl restart nginx
+sudo systemctl start gunicorn
+tail -f /var/log/nginx/error.log
+clear
+cd /home
+ls
+cd shiv
+ls
+cd sysad_intern/
+ls
+source djangoenv/bin/activate
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl status gunicorn
+ls sysad_intern.sock
+ls /home/shiv/sysad_intern
+sudo journalctl -u gunicorn
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+whoami
+ls
+sudo journalctl -u gunicorn
+clear
+ls
+cd /home/shiv/sysad_intern/djangoenv/bin
+ls
+cd gunicorn 
+clear
+sudo journalctl -u gunicorn
+cd /home/shiv/sysad_intern/djangoenv/bin/gunicorn
+/etc/systemd/system/gunicorn.service
+nano /etc/systemd/system/gunicorn.service
+ls
+ls -l /home/shiv/sysad_intern/djangoenv/bin/gunicorn
+clear
+ls
+cd ..
+ls
+cd ..
+ls
+touch sysad_intern.sock
+ls
+sudo systemctl status gunicorn
+clear
+sudo journalctl -u gunicorn
+clear
+deactivate
+sudo journalctl -u gunicorn
+clear
+pip install django gunicorn psycopg2
+pip install gunicorn
+pip install python
+pip install --upgrade pip
+clear
+ls
+source myprojectenv/bin/activate
+pip install gunicorn
+pip install --upgrade pip
+clear
+source djangoenv/bin/activate
+django-admin -version
+djangoadmin -version
+clear
+pip install django gunicorn psycopg2
+clear
+pip install
+yum install python-pip
+pip install --upgrade pip
+clear
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl status gunicorn
+nano /etc/systemd/system/gunicorn.service
+ls
+rm -rf sysad_intern.sock 
+clear
+ls
+cd djangoenv/
+ls
+cd bin/
+ls
+pwd
+nano /etc/systemd/system/gunicorn.service
+pwd
+sudo systemctl status gunicorn
+sudo journalctl -u gunicorn
+sudo systemctl daemon-reload
+sudo systemctl restart gunicorn
+sudo journalctl -u gunicorn
+clear
+nano /etc/systemd/system/gunicorn.service
+sudo journalctl -u gunicorn
+clear
+sudo systemctl restart gunicorn
+systemctl daemon-reload
+sudo journalctl -u gunicorn
+cd /home/shiv/sysad_intern/djangoenv/bin
+ls
+cd gunicorn 
+rm -rf gunicorn 
+clear
+nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl status gunicorn
+sudo journalctl -u gunicorn
+clear
+ls
+touch gunicorn
+ls
+sudo journalctl -u gunicorn
+clear
+deactivate
+sudo journalctl -u gunicorn
+sudo systemctl daemon-reload
+sudo systemctl restart gunicorn
+sudo journalctl -u gunicorn
+sudo systemctl restart gunicorn
+sudo journalctl -u gunicorn
+clear
+cd /home
+cd shiv
+ls
+cd sysad_intern/
+ls
+cd djangoenv/
+ls
+cd bin
+ls
+rm -rf gunicorn 
+source djangoenv/bin/activate
+cd ..
+ls
+cd ..
+source djangoenv/bin/activate
+clear
+cd djangoenv/bin/
+ls
+cd ..
+clear
+pip install gunicorn
+clear
+cd djangoenv/bin/
+ls
+pip install gunicorn
+yum check-update
+yum update gunicorn
+clear
+pip show gunicorn
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi
+sudo apt-get remove gunicorn
+pip install gunicorn
+clear
+ls
+pip install gunicorn --verbose
+clear
+ls
+cd ..
+ls
+cd..
+clear
+ls
+cd ..
+ls
+python3 -m venv myprojectenv
+deactivate
+source myprojectenv/bin/activate
+sudo -H pip install --upgrade pip
+clear
+pip install --upgrade pip
+clear
+pip install django gunicorn 
+~/myproject/manage.py collectstatic
+clear
+ls
+manage.py collectstatic
+clear
+./manage.py collectstatic
+clear
+./manage.py runserver 0.0.0.0:8000
+clear
+./manage.py makemigrations
+./manage.py migrate
+clear
+sudo systemctl stop postgresql
+sudo yum remove postgresql-server postgresql-devel postgresql-contrib
+clear
+sudo yum remove gcc
+sudo rm -rf /var/lib/pgsql
+clear
+./manage.py makemigrations
+./manage.py migrate
+clear
+./manage.py runserver 0.0.0.0:8000
+clear
+deactivate
+clear
+source djangoenv/bin/activate
+./manage.py runserver 0.0.0.0:8000
+clear
+pip install django
+./manage.py runserver 0.0.0.0:8000
+clear
+ls
+cd sysad_intern/
+ls
+nano settings.py
+sudo yum install epel-release
+sudo yum install python-pip python-devel postgresql-server postgresql-devel postgresql-contrib gcc nginx 
+sudo postgresql-setup initdb
+sudo systemctl start postgresql
+sudo nano /var/lib/pgsql/data/pg_hba.conf
+sudo systemctl restart postgresql
+sudo systemctl enable postgresql
+sudo su - postgres
+clear
+pip install django gunicorn psycopg2
+nano settings.py
+cd ..
+./manage.py makemigrations
+./manage.py migrate
+clear
+sudo su - postgres
+clear
+ls
+rm -rf djangoenv/
+rm -rf myprojectenv/
+clear
+deactivate
+clear
+ks
+clear
+ls
+sudo yum install epel-release
+sudo yum install python-pip python-devel postgresql-server postgresql-devel postgresql-contrib gcc nginx 
+sudo postgresql-setup initdb
+sudo systemctl start postgresql
+sudo nano /var/lib/pgsql/data/pg_hba.conf
+sudo systemctl restart postgresql
+sudo systemctl enable postgresql
+sudo su - postgres
+clear
+ls
+cd sysad_intern/settings.py
+nano sysad_intern/settings.py
+ls
+virtualenv myprojectenv
+clear
+python3 -m venv myprojectenv
+source myprojectenv/bin/activate
+pip install django gunicorn
+pip install --upgrade pip
+clear
+pip install --upgrade pip
+pip install django gunicorn
+./manage.py makemigrations
+./manage.py migrate
+pip install django
+clear
+./manage.py makemigrations
+pip install sqlite
+clear
+./manage.py makemigrations
+clear
+sqlite3 --version
+pip install --upgrade django
+pip install --upgrade -r requirements.txt
+clear
+sqlite3 --version
+cd /opt
+wget https://www.sqlite.org/2020/sqlite-autoconf-3310100.tar.gz
+yum install sqlite
+clear
+wget http://www.sqlite.org/2016/sqlite-autoconf-3100000.tar.gz.
+clear
+yum install wget -y
+ yum groupinstall “Development Tools” -y
+clear
+mkdir sqlite3 && cd sqlite3
+wget https://www.sqlite.org/2024/sqlite-autoconf-3450100.tar.gz
+tar xvfz sqlite-autoconf-3450100.tar.gz 
+clear
+cd sqlite-autoconf-3450100
+./configure
+make
+ make install
+make
+# make install
+clear
+sqlite3 –version
+cd /home/shiv
+ls
+cd sysad_intern/
+ls
+./manage.py makemigrations
+source myprojectenv/bin/ac
+source myprojectenv/bin/activate
+./manage.py makemigrations
+clear
+deactivate
+systemctl stop postgresql
+sudo yum remove postgresql-server postgresql-contrib
+sudo rm -rf /var/lib/pgsql/data
+userdel postgres
+clear
+./manage.py makemigrations
+yum remove postgresql-server postgresql-contrib
+clear
+sudo yum install epel-release
+sudo yum install python-pip python-devel postgresql-server postgresql-devel postgresql-contrib gcc nginx 
+sudo postgresql-setup initdb
+sudo systemctl start postgresql
+sudo nano /var/lib/pgsql/data/pg_hba.conf
+clear
+sudo systemctl restart postgresql
+sudo systemctl enable postgresql
+sudo su - postgres
+ls
+source myprojectenv/bin/activate
+pip install django gunicorn psycopg2
+nano sysad_intern/settings.py
+./manage.py makemigrations
+./manage.py migrate
+ls
+./manage.py collectstatic
+clear
+./manage.py runserver 0.0.0.0:8000
+gunicorn --bind 0.0.0.0:8000 sysad_intern.wsgi:application
+clear
+deactivate
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo usermod -a -G shiv nginx
+chmod 710 /home/shiv
+sudo nginx -t
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status gunicorn.socket
+clear
+sudo nano /etc/systemd/system/gunicorn.socket
+cleae
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+sudo nano /etc/nginx/nginx.conf
+sudo systemctl status nginx
+sudo systemctl status gunicorn
+sudo journalctl -u gunicorn
+ls
+sudo nano /etc/systemd/system/gunicorn.service
+clear
+cd myprojectenv/bin/
+ls
+clear
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo journalctl -u gunicorn
+clear
+sudo systemctl enable gunicorn
+sudo journalctl -u gunicorn
+sudo systemctl restart gunicorn
+clear
+sudo journalctl -u gunicorn
+clear
+sudo journalctl -u gunicorn
+clear
+cd /etc/systemd/system/
+ls
+nano gunicorn.service 
+rm -rf gunicorn.service 
+clear
+ls
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl status gunicorn
+sudo journalctl -u gunicorn
+clear
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl status gunicorn
+sudo journalctl -u gunicorn
+sudo nano /etc/systemd/system/gunicorn.service
+sudo systemctl start gunicorn
+sudo systemctl enable gunicorn
+sudo systemctl status gunicorn
+clear
+sudo systemctl status gunicorn
+cd /home/shiv//sysad_intern/myprojectenv/bin/
+ls
+chmod 0755 gunicorn 
+sudo systemctl start gunicorn
+sudo systemctl status gunicorn
+cd ..
+ls
+cd ..
+chmod 0755 myprojectenv/
+cd ..
+ls
+chmod 0755 sysad_intern/
+sudo systemctl status gunicorn
+clear
+cd sysad_intern/
+ls
+source myprojectenv/bin/activate
+which gunicorn
+/etc/systemd/system/gunicorn.service
+nano /etc/systemd/system/gunicorn.service
+sudo systemctl daemon-reload
+sudo systemctl restart gunicorn
+sudo systemctl status gunicorn
