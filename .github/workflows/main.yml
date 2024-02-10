@@ -36,3 +36,9 @@ jobs:
       run: |
         python manage.py collectstatic --noinput
 
+    - name: Apply database migrations
+      run: |
+        python manage.py migrate
+    - name: Restart Gunicorn (assuming you're using Gunicorn as the server)
+      run: |
+        sudo systemctl restart gunicorn  # Adjust the command based on your server setup
