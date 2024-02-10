@@ -1,0 +1,12 @@
+.cache/pip
+.ssh
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cloud-locale-test.skip
+.cshrc
+.gitconfig
+.sqlite_history
+.tcshrc
+.viminfo
