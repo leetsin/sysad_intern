@@ -5,7 +5,7 @@ echo "Deployment started ..."
 
 # Pull the latest version of the app
 echo "Copying New changes...."
-git pull origin master
+git pull origin main
 echo "New changes copied to server !"
 
 # Activate Virtual Env
