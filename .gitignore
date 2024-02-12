@@ -10,3 +10,5 @@
 .sqlite_history
 .tcshrc
 .viminfo
+myprojectenv/
+__pycache__/
