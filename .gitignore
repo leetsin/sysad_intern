@@ -12,3 +12,4 @@
 .viminfo
 myprojectenv/
 __pycache__/
+static_root/
