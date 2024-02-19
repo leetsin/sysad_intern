@@ -4,4 +4,4 @@ def index(request):
     return HttpResponse("Hi shiv")
 
 def about(request):
-    return HttpResponse("Test About Page")
+    return HttpResponse("Test FOSSEE About Page")
